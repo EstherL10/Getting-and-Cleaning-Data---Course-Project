@@ -13,8 +13,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+In this Repository:
 
-run_analysis.r does the following:
+README.md: this file
+
+CodeBook.md: description of variables, data and transformations done to create tidy dataset
+
+run_analysis.r: transforms raw data into a tidy data set
 
      #1. Merges the training and the test sets to create one data set.
      
@@ -25,3 +30,4 @@ run_analysis.r does the following:
      #4. Appropriately labels the data set with descriptive variable names.
      
      #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
